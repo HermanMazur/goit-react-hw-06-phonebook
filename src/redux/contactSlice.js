@@ -33,7 +33,6 @@ const contactSlice = createSlice({
 const persistConfig = {
   key: 'contacts',
   storage,
-    blacklist: ['filter'],
 };
 
 
